@@ -1,0 +1,19 @@
+RAPPORT D'INCIDENT DE SECURITE
+
+Date: 28/02/2025
+Reference: INC-2025-0042
+Classification: CONFIDENTIEL
+
+Description:
+Tentative d'acces non autorise detectee sur le serveur SRV-PROD-01.
+L'adresse IP source: 185.xxx.xxx.xxx a ete bloquee.
+
+Actions correctives:
+1. Revue des logs firewall
+2. Rotation des credentials admin
+3. Mise a jour des regles ACL
+
+Mot de passe temporaire detecte dans un script: password: AdminTemp2025!
+
+Serveur concerne: SRV-PROD-01 (192.168.1.10)
+Contact SOC: soc@entreprise.ma

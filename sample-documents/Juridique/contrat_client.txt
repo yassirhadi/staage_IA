@@ -1,0 +1,20 @@
+CONTRAT DE PRESTATION DE SERVICES
+
+Entre: Entreprise XYZ SARL
+Et: Client ABC International
+
+Reference: CTR-2025-0089
+Date: 10/01/2025
+
+Objet: Fourniture de services de conseil en cybersecurite
+Montant TTC: 150 000 MAD
+TVA: 20%
+
+Representant client:
+Nom: Mohamed Tazi
+Email: m.tazi@abc-international.com
+Telephone: +212 5 37 00 11 22
+Passeport: P1234567
+
+Conditions de paiement: 30 jours
+Classification: CONFIDENTIEL

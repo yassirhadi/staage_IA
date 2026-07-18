@@ -1,0 +1,13 @@
+FACTURE N° FAC-2025-0042
+
+Client: Société ABC
+Email: comptabilite@abc.ma
+Telephone: 0522 11 22 33
+
+Montant HT: 15 000 MAD
+TVA: 3 000 MAD
+Total TTC: 18 000 MAD
+
+IBAN: MA64 1234 5678 9012 3456 7890 1234 56
+
+Date: 15/03/2025

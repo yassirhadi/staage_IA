@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: copilot-rssi
+  profiles:
+    active: dev
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+      force-response: true
+      force-request: true
+
+app:
+  jwt:
+    secret: ${JWT_SECRET:CopilotRSSI2026SecretKeyForJWTTokenGenerationMustBeLongEnough256bits}
+    expiration-ms: 86400000
+  ai-service:
+    base-url: ${AI_SERVICE_URL:http://localhost:8000}
+  cors:
+    allowed-origins: ${CORS_ORIGINS:http://localhost:5173,http://localhost:5174,http://localhost:5175}
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+logging:
+  level:
+    com.copilot.rssi: INFO
+    org.springframework.security: WARN

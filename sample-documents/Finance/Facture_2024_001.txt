@@ -1,0 +1,43 @@
+FACTURE N° 2024-001
+
+Émetteur: Solutions Informatiques SARL
+Adresse: 45 Avenue Mohammed V, Casablanca
+Tél: +212 522 123 456
+Email: contact@solutions-informatiques.ma
+RC: 123456 - Casablanca
+IF: 123456789012345
+Patente: 12345678
+
+Destinataire: Client ABC SARL
+Adresse: 78 Rue Zerktouni, Casablanca
+Tél: +212 522 987 654
+
+Date: 15/01/2024
+Échéance: 15/02/2024
+
+DÉSIGNATION | QUANTITÉ | PRIX UNITAIRE | MONTANT HT
+--- | --- | --- | ---
+Développement application web | 1 | 50 000,00 MAD | 50 000,00 MAD
+Maintenance annuelle | 1 | 15 000,00 MAD | 15 000,00 MAD
+Formation équipe (3 jours) | 1 | 10 000,00 MAD | 10 000,00 MAD
+Hébergement serveur | 12 | 1 500,00 MAD | 18 000,00 MAD
+
+TOTAL HT: 93 000,00 MAD
+TVA (20%): 18 600,00 MAD
+TOTAL TTC: 111 600,00 MAD
+
+Mode de paiement: Virement bancaire
+Banque: Attijariwafa Bank
+RIB: 011 780 000012345678901 73
+IBAN: MA64 0117 8000 0012 3456 7890 173
+BIC: BMAOMAMC
+
+Conditions de vente:
+- Paiement sous 30 jours
+- Pénalité de retard: 1% par mois
+- Propriété réservée jusqu'à paiement complet
+
+Merci de votre confiance.
+
+Pour Solutions Informatiques SARL
+Le Directeur Général

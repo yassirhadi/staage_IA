@@ -1,0 +1,18 @@
+POLITIQUE DE SECURITE DES SYSTEMES D'INFORMATION
+
+Version 1.0 - Usage interne
+
+1. Objectif
+Cette politique définit les règles de sécurité conformément à ISO/IEC 27001.
+
+2. Classification des informations
+- Public
+- Interne
+- Confidentiel
+- Très confidentiel
+
+3. Gestion des mots de passe
+Les mots de passe ne doivent jamais être stockés en clair.
+Mot de passe temporaire: TempPass2025!
+
+Contact RSSI: rssi@entreprise.ma

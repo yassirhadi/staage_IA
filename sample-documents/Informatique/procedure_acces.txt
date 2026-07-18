@@ -1,0 +1,24 @@
+PROCEDURE DE GESTION DES ACCES LOGICIELS
+
+Code: PROC-IT-004
+Version: 3.0
+Classification: INTERNE
+
+1. OBJECTIF
+Definir les regles de creation, modification et suppression des comptes utilisateurs.
+
+2. PERIMETRE
+Tous les systemes d'information de l'entreprise.
+
+3. ETAPES
+3.1 Demande d'acces via ticket IT
+3.2 Validation par le manager
+3.3 Creation du compte avec droits minimaux (principe du moindre privilege)
+3.4 Revue trimestrielle des acces
+
+4. REFERENTIELS
+- ISO/IEC 27001:2022 (A.5.15, A.5.16, A.5.18)
+- NIST CSF (Protect - PR.AC)
+- CIS Control 6: Access Control Management
+
+Responsable: RSSI / DSI

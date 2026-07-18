@@ -1,0 +1,225 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-chart-1: hsl(var(--chart-1));
+  --color-chart-2: hsl(var(--chart-2));
+  --color-chart-3: hsl(var(--chart-3));
+  --color-chart-4: hsl(var(--chart-4));
+  --color-chart-5: hsl(var(--chart-5));
+  --color-sidebar: hsl(var(--sidebar));
+  --color-sidebar-foreground: hsl(var(--sidebar-foreground));
+  --color-sidebar-accent: hsl(var(--sidebar-accent));
+  --color-sidebar-border: hsl(var(--sidebar-border));
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+:root {
+  /* Navy-charcoal dossier base — the "doré + bleu foncé" mix */
+  --background: 222 28% 7%;
+  --foreground: 40 20% 94%;
+  --card: 222 26% 10%;
+  --card-foreground: 40 20% 94%;
+  --popover: 222 26% 10%;
+  --popover-foreground: 40 20% 94%;
+  /* Institutional gold — the seal/stamp accent, this app's signature color */
+  --primary: 38 72% 52%;
+  --primary-foreground: 222 28% 8%;
+  --secondary: 222 20% 16%;
+  --secondary-foreground: 40 20% 94%;
+  --muted: 222 20% 14%;
+  --muted-foreground: 220 10% 62%;
+  --accent: 222 20% 17%;
+  --accent-foreground: 40 20% 94%;
+  /* No pure red in the palette — critical states read as deep burgundy instead */
+  --destructive: 350 45% 38%;
+  --destructive-foreground: 40 20% 94%;
+  --border: 222 20% 19%;
+  --input: 222 20% 19%;
+  --ring: 38 72% 52%;
+  /* Charts: gold (primary signal) / verdigris (conformité) / amber / burgundy / slate */
+  --chart-1: 38 72% 52%;
+  --chart-2: 168 40% 42%;
+  --chart-3: 28 80% 55%;
+  --chart-4: 350 45% 45%;
+  --chart-5: 210 15% 58%;
+  --sidebar: 222 30% 5%;
+  --sidebar-foreground: 40 20% 94%;
+  --sidebar-accent: 222 22% 12%;
+  --sidebar-border: 222 20% 16%;
+  /* Verdigris — "conforme / faible risque" signal, distinct from the gold seal */
+  --conformity: 168 40% 42%;
+  --radius: 0.5rem;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: hsl(var(--border));
+}
+
+body {
+  margin: 0;
+  font-family: 'IBM Plex Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: hsl(var(--foreground));
+  background:
+    radial-gradient(ellipse 70% 45% at 15% -10%, rgba(216,168,74,0.16), transparent),
+    radial-gradient(ellipse 55% 40% at 100% 100%, rgba(107,140,155,0.10), transparent),
+    radial-gradient(ellipse 45% 30% at 0% 85%, rgba(216,168,74,0.08), transparent),
+    linear-gradient(180deg, hsl(var(--background)) 0%, rgba(8,10,16,0.97) 70%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h1, h2, h3, .font-display {
+  font-family: 'Fraunces', 'IBM Plex Sans', serif;
+  letter-spacing: -0.01em;
+}
+
+.font-mono-data {
+  font-family: 'IBM Plex Mono', ui-monospace, monospace;
+}
+
+/* Signature polish: a faint paper-grain texture over the charcoal base,
+   reinforcing the "dossier" feel instead of a flat gradient. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.035;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+#root {
+  position: relative;
+  z-index: 1;
+}
+
+/* Custom scrollbar, tinted to the gold accent instead of the browser default */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.35);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary) / 0.55);
+  background-clip: content-box;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: hsl(var(--primary) / 0.35) transparent;
+}
+
+/* Unified focus ring across native inputs/buttons/links, gold instead of the browser's default blue */
+:focus-visible {
+  outline: 2px solid hsl(var(--primary) / 0.6);
+  outline-offset: 2px;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .glass {
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(148, 163, 184, 0.1);
+  }
+
+  .glass-card {
+    background: linear-gradient(
+      135deg,
+      rgba(30, 41, 59, 0.7) 0%,
+      rgba(15, 23, 42, 0.5) 100%
+    );
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(148, 163, 184, 0.12);
+    box-shadow:
+      0 4px 24px rgba(0, 0, 0, 0.2),
+      inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .gradient-border {
+    position: relative;
+  }
+
+  .gradient-border::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, rgba(216, 168, 74, 0.4), rgba(107, 155, 143, 0.18));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .text-gradient {
+    background: linear-gradient(135deg, #e0ac52 0%, #b98a3f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /*
+   * Signature element: a document classification stamp, echoing the
+   * confidentiality_level field carried through documents/reports in the
+   * schema. Used wherever a classification value is displayed.
+   */
+  .classification-stamp {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.2rem 0.55rem;
+    border: 1.5px solid currentColor;
+    border-radius: 3px;
+    transform: rotate(-1deg);
+    background: transparent;
+  }
+}

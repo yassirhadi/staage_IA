@@ -1,0 +1,15 @@
+FICHE EMPLOYE - DOSSIER RH - CONFIDENTIEL
+
+Nom: Sara El Amrani
+CIN: CD789012
+CNSS: 1234567890
+Email: sara.elamrani@entreprise.ma
+Telephone: 06 98 76 54 32
+Adresse: 45 Boulevard Zerktouni, Casablanca
+
+Poste: Analyste Securite SI
+Departement: Informatique
+Salaire brut: 9500 MAD
+Date embauche: 15/03/2024
+
+Document a usage interne uniquement.

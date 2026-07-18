@@ -1,0 +1,25 @@
+PLAN DE CONTINUITE D'ACTIVITE (PCA) ET REPRISE (PRA)
+
+Version: 2.1
+Date: Janvier 2025
+Classification: INTERNE
+
+Objectif:
+Assurer la continuite des operations critiques en cas d'incident majeur.
+
+Sites de secours:
+- Site principal: Casablanca
+- Site de repli: Rabat
+
+RTO (Recovery Time Objective): 4 heures
+RPO (Recovery Point Objective): 1 heure
+
+Systemes critiques:
+- ERP (SAP)
+- Messagerie (Exchange)
+- Active Directory
+- Base de donnees clients
+
+Conformite: ISO 27001, ISO 22301
+
+Contact PCA: pca@entreprise.ma

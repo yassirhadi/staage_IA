@@ -1,0 +1,51 @@
+CURRICULUM VITAE
+
+AHMED BENALI
+Adresse: 123 Rue Hassan II, Casablanca, Maroc
+Téléphone: +212 600 123 456
+Email: ahmed.benali@email.com
+Date de naissance: 15/03/1985
+Nationalité: Marocaine
+CIN: AB123456
+
+EXPÉRIENCE PROFESSIONNELLE
+
+2018 - Présent
+Chef de Projet IT
+Entreprise Solutions, Casablanca
+- Gestion d'une équipe de 5 développeurs
+- Développement de solutions logicielles pour clients bancaires
+- Mise en place de processus DevOps
+
+2015 - 2018
+Développeur Senior
+TechCorp, Rabat
+- Développement d'applications web en Java et React
+- Maintenance de systèmes existants
+- Formation de nouveaux développeurs
+
+2012 - 2015
+Développeur Junior
+StartUp Innovation, Marrakech
+- Développement d'applications mobiles
+- Participation aux réunions de conception
+- Tests et débogage
+
+FORMATION
+
+2008 - 2012
+Licence en Informatique
+Université Mohammed V, Rabat
+- Spécialisation: Génie Logiciel
+- Projet de fin d'études: Système de gestion de stock
+
+COMPÉTENCES
+
+Langages: Java, Python, JavaScript, SQL
+Frameworks: Spring Boot, React, Angular
+Outils: Git, Docker, Jenkins
+Langues: Français (courant), Anglais (courant), Arabe (natif)
+
+RÉFÉRENCES
+
+Disponibles sur demande

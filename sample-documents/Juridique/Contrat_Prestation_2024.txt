@@ -1,0 +1,69 @@
+CONTRAT DE PRESTATION DE SERVICES
+
+Entre les soussignés:
+
+SOCIÉTÉ SERVICES INFORMATIQUES SARL
+Société à responsabilité limitée au capital de 100 000 MAD
+Siège social: 45 Avenue Mohammed V, Casablanca
+Représentée par Monsieur Mohammed Alami, en qualité de Gérant
+Ci-après dénommée "Le Prestataire"
+
+ET
+
+CLIENT ABC SARL
+Société à responsabilité limitée au capital de 50 000 MAD
+Siège social: 78 Rue Zerktouni, Casablanca
+Représentée par Madame Fatima Zahra, en qualité de Directrice Générale
+Ci-après dénommée "Le Client"
+
+IL A ÉTÉ CONVENU ET ARRÊTÉ CE QUI SUIT:
+
+Article 1 - Objet du contrat
+Le présent contrat a pour objet la prestation de services informatiques par le Prestataire au Client, notamment:
+- Développement d'applications web et mobiles
+- Maintenance et support technique
+- Conseil et audit informatique
+
+Article 2 - Durée du contrat
+Le présent contrat est conclu pour une durée d'un an, renouvelable par tacite reconduction, prenant effet à compter du 1er janvier 2024.
+
+Article 3 - Conditions financières
+En contrepartie des services fournis, le Client s'engage à verser au Prestataire une rémunération mensuelle de 15 000 MAD HT, payable par virement bancaire dans les 30 jours suivant la réception de la facture.
+
+Article 4 - Obligations du Prestataire
+Le Prestataire s'engage à:
+- Fournir des services de qualité professionnelle
+- Respecter les délais convenus
+- Garantir la confidentialité des informations du Client
+- Assurer le support technique pendant les heures ouvrables
+
+Article 5 - Obligations du Client
+Le Client s'engage à:
+- Fournir toutes les informations nécessaires à l'exécution des services
+- Payer les factures dans les délais convenus
+- Respecter les conditions d'utilisation des logiciels fournis
+
+Article 6 - Confidentialité
+Les parties s'engagent à maintenir strictement confidentielles toutes les informations échangées dans le cadre du présent contrat, et à ne les divulguer à aucun tiers sans accord préalable écrit.
+
+Article 7 - Propriété intellectuelle
+Les développements logiciels réalisés par le Prestataire demeurent sa propriété intellectuelle jusqu'au paiement intégral des factures correspondantes.
+
+Article 8 - Résiliation
+Le présent contrat peut être résilié par l'une ou l'autre partie moyennant un préavis de 30 jours, par lettre recommandée avec accusé de réception.
+
+Article 9 - Litiges
+En cas de litige, les parties s'efforceront de trouver une solution amiable. À défaut, le litige sera soumis aux tribunaux compétents de Casablanca.
+
+Article 10 - Entrée en vigueur
+Le présent contrat entre en vigueur à compter de sa signature par les deux parties.
+
+Fait à Casablanca, le 15 janvier 2024
+
+Pour SOCIÉTÉ SERVICES INFORMATIQUES SARL
+Le Gérant
+Mohammed Alami
+
+Pour CLIENT ABC SARL
+La Directrice Générale
+Fatima Zahra
