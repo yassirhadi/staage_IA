@@ -82,20 +82,6 @@ npm run dev
 
 - Interface : http://localhost:5173
 
-## Fonctionnalités implémentées (Phase 1)
-
-- [x] Authentification JWT (ADMIN / RSSI)
-- [x] Architecture en couches (Controller → Service → Repository)
-- [x] Principes SOLID (interfaces de services)
-- [x] Inventaire automatique des fichiers
-- [x] Gestion des actifs
-- [x] Extraction de contenu (PDF, Word, Excel, TXT, OCR images)
-- [x] Classification documentaire
-- [x] Détection données sensibles (CIN, email, téléphone, IBAN, mots de passe)
-- [x] Analyse des risques
-- [x] Copilote IA (questions/réponses)
-- [x] Interface React complète
-
 ## Test du flux complet
 
 1. Se connecter avec `rssi / rssi123`
@@ -111,11 +97,3 @@ npm run dev
 **Frontend :** Composants réutilisables, Context API, routes protégées, services API
 
 **IA :** Modules séparés (extractor, classifier, detector, risk_analyzer), API REST FastAPI
-
-## Prochaines étapes (Phase 2)
-
-- Génération de rapports PDF/Excel
-- Intégration LLM (Ollama / Mistral) pour le chat avancé
-- RAG avec référentiels ISO 27001, NIST
-- Tests unitaires et d'intégration
-- Upload de fichiers via interface web
